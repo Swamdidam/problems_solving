@@ -1,0 +1,39 @@
+
+// var array = [1,4,2,8,10,5]
+
+// var arr = array2.sort((a,b) =>{return a-b})
+
+
+
+// console.log(arr);
+// console.log(array2.indexOf(array.length))
+// console.log(array.length-(array.length-1))
+
+// // return array2.indexOf(1)
+
+// // console.log(array.indexOf(2))
+
+
+function stock(array){
+// var array = [100,499,200,8,10,50]
+
+var min = Math.min(...array)
+var max = Math.max(...array)
+
+    if((array.indexOf(min))>(array.indexOf(max))){
+    console.log(-1)
+    }else{
+        console.log("Buy stocks on day "+(array.indexOf(min)+1))
+        console.log("Sell stocks on day "+(array.indexOf(max)+1))
+    }
+}
+
+stock([1,49,200,8,10,50])
+
+
+
+
+
+
+
+

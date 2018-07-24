@@ -1,0 +1,1 @@
+console.log(Math.random().toString(9).substring(2, 5))
